@@ -29,7 +29,7 @@ elif planet == 5:
   print("On Uranus you weigh ", end="") 
   print(weight * 0.92, end="")
   print(" pounds!")
-else planet == 6:
+elif planet == 6:
   print("On Neptune you weigh ", end="") 
   print(weight * 1.19, end="")
   print(" pounds!")

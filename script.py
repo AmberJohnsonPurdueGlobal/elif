@@ -3,10 +3,11 @@ print("I have information for the following planets:\n")
 print("   1. Venus   2. Mars    3. Jupiter")
 print("   4. Saturn  5. Uranus  6. Neptune\n")
  
+ #planet number correlates to specific planet above, weight can changed based on user input
 weight = 185
 planet = 6
 
-# Write an if statement below:
+# Only one description will print based on planet number above
 
 if planet == 1:
   print("On Venus you weigh ", end="") 
